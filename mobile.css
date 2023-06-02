@@ -1,0 +1,89 @@
+@media only screen and (max-device-width: 450px) {
+  bottom {
+    height: 63px;
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  p {
+    font-size: 26px;
+  }
+  a {
+    font-size: 26px;
+  }
+  li {
+    font-size: 20px;
+  }
+}
+.content-container {
+  width: 96vw;
+  max-width: 96vw;
+}
+.barra-navegacao {
+  width: 100%;
+}
+.hero-info {
+  width: 100%;
+}
+.footer-content {
+  width: 100%;
+}
+.hero-imagem {
+  width: 300px;
+  margin-left: 650px;
+}
+.hero-info-title {
+  font-size: 50px;
+  margin-top: 12px;
+}
+.hero-info-subtitle {
+  font-size: 28px;
+  font-family: "montserrat", sans-serif;
+}
+.abilityq-card-container {
+  grid-template-rows: auto;
+  row-gap: 36px;
+  margin-top: 12px;
+}
+.abilityq-subtitle {
+  font-size: 20px;
+}
+.section-experiences-card {
+  width: 90vw;
+}
+.section-experiences-legend {
+  font-size: 25px;
+}
+.section-portfolio-grid {
+  row-gap: 36px;
+  grid-template-columns: auto;
+  margin-top: 24px;
+}
+.section-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+.section-hero {
+  height: auto;
+  padding-top: 50px;
+}
+.hero-info {
+  width: 100%;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.barra-navegacao {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.links-navegacao {
+  display: none;
+}
+.titulo-navegacao {
+  font-size: 32px;
+}
