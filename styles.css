@@ -92,7 +92,7 @@ a {
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
-  margin-top: 64px;
+  margin-top: 10px;
 }
 
 .titulo-navegacao {
@@ -128,8 +128,9 @@ a {
 .hero-info-subtitle {
   font-size: 20px;
   line-height: 28px;
-  max-width: 65%;
+  max-width: 64%;
   margin-top: 16px;
+  color: black;
 }
 
 .hero-imagem {
@@ -175,7 +176,7 @@ h2.verde {
   width: 312px;
   height: 690px;
   border-width: 1px;
-  border-color: #d9d9d9;
+  border-color: #1e1e1e;
   border-radius: 12px;
   border-style: solid;
   padding-top: 16px;
