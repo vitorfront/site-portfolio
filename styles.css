@@ -58,6 +58,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
+a {
+  color: #1e1e1e;
+}
 
 .root-container {
   display: flex;
@@ -130,7 +133,7 @@ footer {
 }
 
 .hero-imagem {
-  height: 400px;
+  height: 100%;
   width: 300px;
   border-radius: 40px;
   border-color: #219653;
@@ -312,6 +315,7 @@ h2.verde {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
 .section-contact-item-icon {
   width: 24px;
