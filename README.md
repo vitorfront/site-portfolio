@@ -5,7 +5,7 @@ the main goal is create a website with my professional information.
 
 # preview
 
-<img src="https://github.com/vitorfront/site-portfolio/blob/main/preview1.png" height="500"/>
+<img src="https://github.com/vitorfront/site-portfolio/blob/main/preview1.png" height="400"/>
 
 ## Live link:
 
