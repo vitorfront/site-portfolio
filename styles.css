@@ -4,21 +4,24 @@
 
 body {
   font-family: "open Sans", sans-serif;
-  background-color: #fefefe;
+  background-color: #1f1d1d;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
   transition: background 0.2s linear;
 }
-body.dark {
-  background-color: #232c35;
+
+p {
+  color: #ffffff;
 }
+
 h1 {
   font-family: "montserrat", sans-serif;
 }
 
 a {
   font-family: "Roboto Slab", serif;
+  color: #fefefe;
 }
 h2 {
   font-family: "montserrat", sans-serif;
@@ -31,8 +34,8 @@ h2 {
 
 button {
   height: 56px;
-  border-radius: 16px;
-  background-color: #219653;
+  border-radius: 20px;
+  background-color: #00eeff;
   border-width: 0px;
   color: #fefefe;
   font-size: 16px;
@@ -41,12 +44,17 @@ button {
   padding-left: 16px;
   padding-right: 16px;
   cursor: pointer;
+  border-radius: 20px;
+  border-color: #ffffff;
+  border-width: 4px;
+  border-style: solid;
 }
 h5 {
   font-family: "montserrat", sans-serif;
   font-weight: bold;
   font-size: 24px;
   margin: 0px;
+  color: #ffffff;
 }
 
 li {
@@ -58,12 +66,12 @@ footer {
   display: flex;
   width: 100vw;
   height: 156px;
-  background-color: #d9d9d9;
+  background-color: rgb(39, 36, 36);
   align-items: center;
   justify-content: center;
 }
 a {
-  color: #1e1e1e;
+  color: #fefefe;
 }
 
 .root-container {
@@ -100,14 +108,14 @@ a {
 }
 
 .titulo-navegacao {
-  color: #1e1e1e;
+  color: #ffffff;
   font-size: 24px;
   letter-spacing: -0.015rem;
   font-weight: bold;
 }
 
 .links-navegacao {
-  color: #1e1e1e;
+  color: #ffffff;
   font-size: 16px;
   letter-spacing: -0.015rem;
   margin-right: 17px;
@@ -125,6 +133,7 @@ a {
 }
 
 .hero-info-title {
+  color: #fefefe;
   font-size: 48px;
   font-weight: bold;
   margin: 0px;
@@ -134,21 +143,21 @@ a {
   line-height: 28px;
   max-width: 64%;
   margin-top: 16px;
-  color: black;
+  color: #fefefe;
 }
 
 .hero-imagem {
   height: 100%;
   width: 300px;
   border-radius: 40px;
-  border-color: #219653;
+  border-color: #00eeff;
   border-width: 4px;
   border-style: solid;
 }
 .hero-info-icon-container {
   display: flex;
   flex-direction: row;
-  width: 30%;
+  width: 28%;
   align-items: center;
   justify-content: space-between;
   margin-top: 24px;
@@ -158,6 +167,10 @@ a {
   width: 36px;
   height: 36px;
   cursor: pointer;
+  border-radius: 40px;
+  border-color: #00eeff;
+  border-width: 2.5px;
+  border-style: solid;
 }
 .section-habilidades {
   display: flex;
@@ -170,7 +183,7 @@ a {
 }
 
 h2.verde {
-  color: #219653;
+  color: #ffffff;
 }
 
 .abilityq-card {
@@ -180,7 +193,7 @@ h2.verde {
   width: 312px;
   height: 690px;
   border-width: 1px;
-  border-color: #1e1e1e;
+  border-color: #00eeff;
   border-radius: 12px;
   border-style: solid;
   padding-top: 16px;
@@ -202,10 +215,11 @@ h2.verde {
   border-radius: 40px;
   width: 80px;
   height: 80px;
-  background-color: #219653;
+  background-color: #00eeff;
   margin-top: 2px;
   border-style: solid;
-  border-color: #d9d9d9;
+  border-width: 2.5px;
+  border-color: #ffffff;
   margin-bottom: 12px;
 }
 .abilityq-card-icon-img {
@@ -219,11 +233,12 @@ h2.verde {
   text-align: center;
   margin-top: 8px;
   font-family: "montserrat", sans-serif;
-  color: #1e1e1e;
+  color: #ffffff;
   max-width: 70%;
 }
 .ability-list {
   width: 90%;
+  color: #ffffff;
 }
 .section-portfolio {
   display: flex;
@@ -250,7 +265,7 @@ h2.verde {
   width: 384px;
   height: 300px;
   border-width: 2px;
-  border-color: #d9d9d9;
+  border-color: #00eeff;
   border-style: solid;
   border-radius: 24px;
 }
@@ -260,7 +275,7 @@ h2.verde {
   height: 110px;
   margin-bottom: 12px;
   border-width: 2px;
-  border-color: #a7c7b5;
+  border-color: #00eeff;
   border-style: solid;
   border-radius: 24px;
 }
@@ -273,9 +288,13 @@ h2.verde {
 }
 .section-portfolio-card-icon-img {
   margin-top: 10px;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 24px;
 }
 .section-experiences {
   display: flex;
@@ -293,11 +312,11 @@ h2.verde {
   justify-content: flex-start;
   width: 800px;
   height: 130px;
-  background-color: #d9d9d9;
+  background-color: #ffffff;
   border-radius: 16px;
   margin-top: 25px;
   border-style: solid;
-  border-color: #219653;
+  border-color: #00eeff;
 }
 .section-experiences-legend {
   display: flex;
@@ -330,6 +349,11 @@ h2.verde {
   width: 24px;
   height: 24px;
   margin-right: 8px;
+  border-radius: 24px;
+  border-width: 2px;
+  border-color: #00eeff;
+  border-style: solid;
+  border-radius: 24px;
 }
 .footer-content {
   display: flex;
@@ -338,6 +362,7 @@ h2.verde {
   height: 100%;
   align-items: center;
   justify-content: space-between;
+  color: #d9d9d9;
 }
 .footer-social-icons-container {
   display: flex;
