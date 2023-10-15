@@ -7,7 +7,7 @@
   }
 
   p {
-    font-size: 26px;
+    font-size: 30px;
   }
   a {
     font-size: 26px;
@@ -24,6 +24,9 @@
     width: 100%;
   }
   .hero-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
     width: 100%;
   }
   .footer-content {
@@ -32,7 +35,7 @@
 
   .hero-info-title {
     font-size: 50px;
-    margin-top: 12px;
+    margin-top: 60px;
   }
   .hero-info-subtitle {
     font-size: 28px;
@@ -91,7 +94,15 @@
     font-size: 32px;
   }
   .hero-imagem {
+    margin-top: 10px;
     width: 300px;
-    margin-left: 650px;
+  }
+  .section-habilidades {
+    margin-top: 300px;
+  }
+
+  .hero-info-icon-img {
+    width: 56px;
+    right: 56px;
   }
 }
