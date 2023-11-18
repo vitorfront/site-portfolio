@@ -153,6 +153,7 @@ a {
   border-color: #00eeff;
   border-width: 4px;
   border-style: solid;
+  object-fit: contain;
 }
 .hero-info-icon-container {
   display: flex;
