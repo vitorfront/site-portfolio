@@ -34,7 +34,6 @@ h2 {
 
 button {
   height: 56px;
-  border-radius: 20px;
   background-color: #00eeff;
   border-width: 0px;
   color: #fefefe;
@@ -46,7 +45,7 @@ button {
   cursor: pointer;
   border-radius: 20px;
   border-color: #ffffff;
-  border-width: 4px;
+  border-width: 2px;
   border-style: solid;
 }
 h5 {
@@ -72,6 +71,14 @@ footer {
 }
 a {
   color: #fefefe;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  width: 102vw;
+  height: 85px;
+  background-color: rgb(39, 36, 36);
 }
 
 .root-container {
@@ -151,7 +158,7 @@ a {
   width: 300px;
   border-radius: 40px;
   border-color: #00eeff;
-  border-width: 4px;
+  border-width: 2px;
   border-style: solid;
   object-fit: contain;
 }
@@ -292,7 +299,7 @@ h2.verde {
   width: 25px;
   height: 25px;
   cursor: pointer;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #ffffff;
   border-style: solid;
   border-radius: 24px;
