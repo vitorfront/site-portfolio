@@ -69,9 +69,6 @@ footer {
   align-items: center;
   justify-content: center;
 }
-a {
-  color: #fefefe;
-}
 
 .color {
   display: flex;
@@ -79,6 +76,14 @@ a {
   width: 102vw;
   height: 85px;
   background-color: rgb(39, 36, 36);
+}
+
+a {
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.1);
 }
 
 .root-container {
@@ -119,13 +124,14 @@ a {
   font-size: 24px;
   letter-spacing: -0.015rem;
   font-weight: bold;
+  margin-right: 64px;
 }
 
 .links-navegacao {
   color: #ffffff;
   font-size: 16px;
   letter-spacing: -0.015rem;
-  margin-right: 17px;
+  margin-right: 64px;
   cursor: pointer;
 }
 
@@ -186,7 +192,7 @@ a {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  padding-top: 64px;
+  padding-top: 92px;
   padding-bottom: 64px;
 }
 
