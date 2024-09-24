@@ -81,7 +81,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 270px;
   }
   .barra-navegacao {
     width: 100%;
@@ -92,10 +92,13 @@
   }
   .titulo-navegacao {
     font-size: 32px;
+    padding-left: 50px;
   }
   .hero-imagem {
     margin-top: 10px;
-    width: 300px;
+    width: 350px;
+    height: 450px;
+    border: 0;
   }
   .section-habilidades {
     margin-top: 300px;
